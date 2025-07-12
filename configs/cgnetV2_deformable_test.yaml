@@ -14,7 +14,8 @@ test_dataset:
   dataset:
     name: parallel_training
     args:
-      path_split: ./split_all_rodosol.txt
+      path_split: /kaggle/input/bien-so-xe-project-bao-nho/plate_data_for_training/plate_data_for_training/test_gt.txt
+      images_root: /kaggle/input/bien-so-xe-project-bao-nho/plate_data_for_training/plate_data_for_training/test
       phase: testing
 
   wrapper:
